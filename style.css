@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: rgb(252, 230, 234);
+}
+
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+    color: #87CEEB;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  padding: 1px;
+  background-color: #f8f8f8;
+}
+
+header h1 {
+  color: #333;
+}
+
+.slogan {
+  font-style: italic;
+  color: #555;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #007BFF;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+img {
+  max-width: 70%;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  border: 6px solid rgb(191, 238, 252); /* Border around images */
+  border-radius: 500px;
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: azure;
+  color: #dd8d8d;
+}
+
+div{
+  display: block;
+  background: rgb(245, 245, 245) ;
+  padding: 60px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(197, 217, 233, 0.3);
+  border-radius: 4px;
+  }
+
+  .hero-banner {
+    background: url('https://wellzia.com/wp-content/uploads/2023/04/gamme-complete-la-rosee.jpg') center/cover no-repeat;
+    text-align: center;
+    color: #007BFF;
+    padding: 100px 20px;
+  }
+  
+  .hero-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-banner p {
+    color: #007BFF;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+
+  #accueil {
+    text-align: center;
+    color: hotpink;
+    font-size: 20px;
+  }
+  
